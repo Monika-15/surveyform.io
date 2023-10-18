@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="surveyform.css">
+    <title>Technology Usage Survey</title>
+</head>
+<body>
+    <form id="tech-usage-form" action="process_survey.php" method="post">
+   
+        <h1>Technology Usage Survey</h1>
+        <fieldset>
+            <legend>How often do you use technology in your daily life?</legend>
+            <label>
+                <input type="radio" name="Time usage" value="multiple times">Multiple times per hour
+            </label><br>
+            <label>
+                <input type="radio" name="Time usage" value="Several times">Several times per day
+            </label><br>
+            <label>
+                <input type="radio" name="Time usage" value="Not exessive">Daily, but not excessively
+            </label><br>
+            <label>
+                <input type="radio" name="Time usage" value="Rarely">Rarely
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>What type of technology devices do you use regularly? </legend>
+       <label>
+        <input type="checkbox" name="Devices" value="Smartphone"> Smartphone
+       </label> <br>
+    <label>
+        <input type="checkbox" name="Devices" value="Laptop"> Laptop
+    </label><br>
+    <label>
+        <input type="checkbox" name="Devices" value="Desktop computer"> Desktop computer
+    </label><br>
+    <label>
+        <input type="checkbox" name="Devices" value="Tablet"> Tablet
+    </label><br>
+    <label>
+        <input type="checkbox" name="Devices" value="Smartwatch">Smartwatch
+    </label><br>
+    <label>
+        <input type="checkbox" name="Devices" value="Smart Home Devices"> SmartHome Devices
+    </label><br>
+</fieldset>
+        <fieldset>
+            <legend>Which operating system do you prefer for your smartphone?</legend>
+            <label>
+                <input type="radio" name="os-preference" value="iOS"> iOS (Apple)
+            </label><br>
+            <label>
+                <input type="radio" name="os-preference" value="Android"> Android (Google)
+            </label><br>
+            </fieldset>
+            <fieldset>
+                <legend>Which operating system do you primarily use on your computer or laptop?</legend>
+                <label>
+                    <input type="radio" name="os" value="Windows"> Windows
+                </label><br>
+                <label>
+                    <input type="radio" name="os" value="macOs"> macOs
+                </label><br>
+                <label>
+                    <input type="radio" name="os" value="Linux"> Linux
+                </label><br>
+                <label>
+                    <input type="radio" name="os" value="Other"> Other
+                </label><br>
+            </fieldset>
+       <fieldset>
+        <legend>Which web browser do you use most frequently?</legend>
+        <label>
+            <input type="radio" name="Browser" value="Chrome">Google chrome
+        </label><br>
+        <label>
+            <input type="radio" name="Browser" value="Firefox">Mozilla Firefox
+        </label><br>
+        <label>
+            <input type="radio" name="Browser" value="Safari">Apple safari
+        </label><br>
+        <label>
+         <input type="radio"  name="Browser" value="Other">Other
+        </label><br>
+       </fieldset>
+       <fieldset>
+            <legend>Which social media platforms do you actively use or have accounts on?</legend>
+            <label>
+                <input type="checkbox" name="social-media" value="Facebook"> Facebook
+            </label><br>
+            <label>
+                <input type="checkbox" name="social-media" value="Instagram"> Instagram
+            </label><br>
+            <label>
+                <input type="checkbox" name="social-media" value="Twitter"> Twitter
+            </label><br>
+            <label>
+                <input type="checkbox" name="social-media" value="Pinterest"> Pinterest
+            </label><br>
+            <label>
+                <input type="checkbox" name="social-media" value="Snapchat"> Snapchat
+            </label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Do you regularly use technology for work or professional purposes?</legend>
+            <label>
+                <input type="radio" name="Usage" value="Regularly"> Regularly
+            </label><br>
+            <label>
+                <input type="radio" name="Usage" value="Occasionally"> Occasionally
+            </label><br>
+            <label>
+                <input type="radio" name="Usage" value="Rarely"> Rarely
+            </label><br>
+            <label>
+                <input type="radio" name="Usage" value="Never"> Never
+            </label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Are you concerned about the security and privacy of your personal data online?</legend>
+            <label>
+                <input type="radio" name="Security" value="Very Concerned"> Very concerned
+            </label><br>
+            <label>
+                <input type="radio" name="Security" value="Neutral"> Neutral
+            </label><br>
+            <label>
+                <input type="radio" name="Security" value="Not concerned at all"> Not concerned at all
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Have you ever experienced a cybersecurity breach or identity theft?</legend>
+            <label>
+                <input type="radio" name="cybersecurity" value="Yes"> Yes
+            </label><br>
+            <label>
+                <input type="radio" name="cybersecurity" value="No"> No
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>What is your preferred method of online communication?</legend>
+           <label>
+            <input type="radio" name="App-usage" value="Email"> Email
+           </label><br>
+           <label>
+            <input type="radio" name="App-usage" value="Messaging app"> Messaging app (e.g.,WhatsApp,Facebook)
+           </label><br>
+           <label>
+            <input type="radio" name="App-usage" value="Video calls"> Video calls (e.g.,Zoom,Skype)
+           </label><br>
+           <label>
+            <input type="radio" name="App-usage" value="others"> Others
+           </label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Have you ever made an online purchase using a mobile payment service (e.g., Apple Pay, Google Pay, PayPal)?</legend>
+            <label>
+                <input type="radio" name="Online-payment" value="Yes"> Yes
+            </label><br>
+            <label>
+            <input type="radio" name="Online-payment" value="No"> No
+            </label><br>
+        </fieldset>
+        <fieldset>
+            <legend>How often do you shop online?</legend>
+            <label>
+                <input type="radio" name="Online-shopping" value="Multiple times"> Multiple times per week
+            </label><br>
+            <label>
+                <input type="radio" name="Online-shopping " value="Weekly"> Weekly
+            </label><br>
+            <label>
+                <input type="radio" name="Online-shopping " value="Monthly"> Monthly
+            </label><br>
+            <label>
+                <input type="radio" name="Online-shopping " value="Rarely"> Rarely
+            </label><br>
+            <label>
+                <input type="radio" name="Online-shopping " value="Never"> Never
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Have you ever used wearable technology devices (e.g., fitness trackers, smartwatches)?</legend>
+        <label>
+            <input type="radio" name="Wearables" value="Yes"> Yes
+        </label><br>
+        <label>
+            <input type="radio" name="Wearables" value="No"> No
+        </label>
+        </fieldset>
+        <fieldset>
+            <legend>How often do you update the software and apps on your devices?</legend>
+            <label>
+                <input type="radio" name="Updating" value="Always"> Always
+            </label><br>
+            <label>
+                <input type="radio" name="Updating" value="Often"> Often
+            </label><br>
+            <label>
+                <input type="radio" name="Updating" value="Sometimes"> Sometimes
+            </label><br>
+            <label>
+                <input type="radio" name="Updating" value="Rarely"> Rarely
+            </label><br>
+            <label>
+                <input type="radio" name="Updating" vsalue="Never"> Never
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Do you use cloud storage services (e.g., Google Drive, Dropbox) to store and sync your files?</legend>
+            <label>
+                <input type="radio" name="Cloud-Storage" value="Yes"> Yes
+            </label><br>
+            <label>
+                <input type="radio" name="Cloud-Storage" value="No"> No
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>How do you stay updated on the latest technology trends and news?</legend>
+            <label>
+                <input type="radio" name="Gathering-information" value="Websites"> Tch news websites
+            </label><br>
+            <label>
+                <input type="radio" name="Gathering-information" value="Social media"> Social media
+            </label><br>
+            <label>
+                <input type="radio" name="Gathering-information" value="Newsletters"> Newsletters
+            </label><br>
+            <label>
+                <input type="radio" name="Gathering-information" value="Other"> Other
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Do you believe that technology has a positive or negative impact on society overall?</legend>
+            <label>
+                <input type="radio" name="Impact" value="Positive"> Positive
+            </label><br>
+            <label>
+                <input type="radio" name="Impact" value="Negative"> Negative
+            </label>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <script src="script.js"></script> <!-- Optional JavaScript for interactivity -->
+</body></html>
